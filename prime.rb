@@ -2,6 +2,16 @@
 def prime?(number)
   if number == 2
     true
+  else
+    range = (2..number)
+    
+    range.each do |i|
+      if number%i == 0
+        false
+      else
+        true
+      end
+    end
   end
   # case number
   #   when number <= 1
