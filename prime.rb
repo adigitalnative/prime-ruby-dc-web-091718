@@ -9,7 +9,7 @@ def prime?(number)
       false
     when check_prime(number)
       true
-    end
+  end
 end
 
 private
