@@ -15,7 +15,9 @@ end
 private
 
 def check_prime(number)
-  range = (2...(number/2.to_i))
+  range = (2...(number/2))
+  
+  range.
 end
 
 # Take the number & divide by 2
