@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  if number == 2
+  if number == 2 || 3
     true
   else
     range = (2..number)
