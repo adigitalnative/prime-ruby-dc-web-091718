@@ -3,7 +3,8 @@ def prime?(number)
   if number <= 1
     return false
   else
-    (2..number-2).to_a.all? do |factor|
+    possible_factors = (2..number-2)
+    possible_factors.to_a.all? do |factor|
       number%factor != 0
     end
   end
