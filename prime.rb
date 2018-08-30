@@ -4,7 +4,8 @@ def prime?(number)
     return false
   else
     (2..number-2).to_a.all? do |factor|
-      number%factor == 0
+      number%factor != 0
+    end
   end
 end
 
