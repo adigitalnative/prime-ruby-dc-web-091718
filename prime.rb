@@ -3,9 +3,9 @@ def prime?(number)
   case number
     when number <= 1
       false
-    when n <= 3
+    when number <= 3
       true
-    when n%2 == 0 || n%3 == 0
+    when number%2 == 0 || number%3 == 0
       false
     when check_prime(number)
       true
