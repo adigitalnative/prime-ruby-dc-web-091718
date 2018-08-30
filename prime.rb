@@ -3,7 +3,7 @@ def prime?(number)
   case number
     when number <= 1
       false
-    when number <= 3
+    when number == 2 || number == 3
       true
     when number%2 == 0 || number%3 == 0
       false
