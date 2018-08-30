@@ -1,5 +1,8 @@
 # Add  code here!
 def prime?(number)
+  if number == 2
+    true
+  end
   # case number
   #   when number <= 1
   #     false
