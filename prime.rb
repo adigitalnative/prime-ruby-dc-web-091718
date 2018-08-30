@@ -17,7 +17,13 @@ private
 def check_prime(number)
   range = (2...(number/2))
   
-  range.
+  range.each do |i|
+    if number%i == 0
+      return true
+    else
+      return false
+    end
+  end
 end
 
 # Take the number & divide by 2
