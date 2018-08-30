@@ -7,10 +7,20 @@ def prime?(number)
       true
     when n%2 == 0 || n%3 == 0
       false
+    when check_prime(number)
+      true
     end
 end
 
 private
+
+def check_prime(number)
+  range = (2...(number/2.to_i))
+end
+
+# Take the number & divide by 2
+# Then see if the original number is evenly divisible by any of those numbers.
+# If it is, then the original number is not prime
 
 # What makes something Prime?
 #
